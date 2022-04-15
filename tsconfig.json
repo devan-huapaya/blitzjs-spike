@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "paths": {
+      "styles/*": ["app/styles/*"],
+      "components/*": ["app/components/*"],
+      "common/*": ["app/components/common/*"],
+      "partials/*": ["app/components/partials/*"],
+      "pages/*": ["app/components/pages/*"],
+      "layouts/*": ["app/components/layouts/*"],
+      "mutations/*": ["app/mutations/*"],
+      "queries/*": ["app/queries/*"],
+      "hooks/*": ["app/hooks/*"],
+      "store/*": ["app/store/*"],
+      "reducers/*": ["app/store/reducers/*"],
+      "utils/*": ["app/utils/*"],
+      "__tests__/*": ["__tests__/*"],
+      "__mocks__/*": ["__tests__/__mocks__/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.e2e.ts", "cypress"],
+  "include": ["blitz-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

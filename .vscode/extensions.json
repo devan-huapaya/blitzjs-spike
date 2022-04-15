@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "mgmcdermott.vscode-language-babel",
+    "orta.vscode-jest",
+    "prisma.prisma",
+    "streetsidesoftware.code-spell-checker",
+    "Gruntfuggly.todo-tree",
+    "eamodio.gitlens",
+    "styled-components.vscode-styled-components",
+    "xabikos.JavaScriptSnippets",
+    "dsznajder.es7-react-js-snippets",
+    "yzhang.markdown-all-in-one",
+    "ChakrounAnas.turbo-console-log"
+  ],
+  "unwantedRecommendations": []
+}
